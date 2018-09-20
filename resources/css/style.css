@@ -20,3 +20,53 @@ nav span{
   padding: 10px;
   display: inline-block;
 }
+.container {
+  display: flex;
+}
+.large, .medium, .small {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.large {
+  width: 630px;
+}
+.medium {
+  width: 300px;
+}
+.small {
+  width: 240px;
+}
+.main, .sub-story {
+  border: 1px solid black;
+}
+.image {
+  display: flex;
+  flex-grow: 2;
+  height: 300px;
+}
+.image span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white
+}
+.article {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.cat {
+  background: url("../images/img-story-1.png");
+  background-size: cover;
+}
+.earth {
+  background: url("../images/img-story-2.png");
+}
+.camera {
+  background: url("../images/img-story-3.png");
+}
+.main {
+  background: url("../images/img-story-main.png");
+  font-size: 40px;
+}
